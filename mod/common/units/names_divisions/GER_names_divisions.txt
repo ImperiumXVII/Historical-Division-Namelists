@@ -815,7 +815,7 @@ GER_SS_01 =
 	}
 }
 
-GER_SS_02 = 
+GER_SSARM_01 = 
 {
 	name = "SS Panzer Divisions"
 	for_countries = { GER }
@@ -835,7 +835,7 @@ GER_SS_02 =
 	}
 }
 
-GER_SS_03 = 
+GER_SSOTH_01 = 
 {
 	name = "Other SS Divisions"
 	for_countries = { GER }
@@ -843,7 +843,7 @@ GER_SS_03 =
 		has_government = fascism
 	}
 	division_types = { "cavalry" "mountaineers" }
-	fallback_name = "%d. SS-Freiwillige-Grenadier-Division"
+	fallback_name = "%d. SS-Freiwilligen Grenadier-Division"
 	link_numbering_with = {	GER_SS_01 }
 	ordered = {
 		1 = { "SS-Verfügungstruppe" }
