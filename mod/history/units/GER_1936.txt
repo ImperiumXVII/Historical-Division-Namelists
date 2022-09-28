@@ -78,7 +78,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Kavallerie-Brigade"
+	name = "Kavallerie-Division"
 
 	division_names_group = GER_Cav_01
 
@@ -259,7 +259,7 @@ units = {
 	division= {	
 		name = "Kavallerie-Kommando Insterburg" 
 		location = 281
-		division_template = "Kavallerie-Brigade"
+		division_template = "Kavallerie-Division"
 		start_experience_factor = 0.3
 	}
 
