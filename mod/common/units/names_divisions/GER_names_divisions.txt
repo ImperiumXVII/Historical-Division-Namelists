@@ -843,7 +843,8 @@ GER_SS_03 =
 		has_government = fascism
 	}
 	division_types = { "cavalry" "mountaineers" }
-	fallback_name = "%d. SS-Gebirgs-Division"
+	fallback_name = "%d. SS-Freiwillige-Grenadier-Division"
+	link_numbering_with = {	GER_SS_01 }
 	ordered = {
 		1 = { "SS-Verfügungstruppe" }
 		2 = { "SS-Totenkopfverbände" }
