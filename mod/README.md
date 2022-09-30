@@ -31,3 +31,4 @@ Anything formed after 1943 was added to the `Late/Alternate Infantry Divisions` 
 * Added every SS division, including volunteers, pre-war units (SS-VT and SS-TV) and _2. Kosaken-Kavallerie-Division_, across 3 namelists. Also added alternative names for some of the divisions.
 * Renamed _Seelande-Division_ to **Marine-Infanterie-Division** in `Marine Divisions` namelist, except _1._ and _2._ as they are present in the `Infantry Divisions` namelist
 * Added _Marine-Stoßtrupp-Abteilung_ and _Marine-Schützen-Brigade Nord_ to the `Marine Divisions` namelist. _Marine-Stoßtrupp-Abteilung_ is not strictly a division, but was the only German unit with amphibious assault experience during the war.
+* Changed starting _Infanterie-Division (mot.)_ to **SS-Grenadier-Division** and gave it the `SS Infantry Divisions` namelist. The single unit deployed on game start is still called __SS-Verfügungstruppe__.

@@ -21,7 +21,7 @@
 	}
 }
 division_template = {
-	name = "Leichte Division"
+	name = "Leichte-Division"
 
 	division_names_group = GER_LTARM_01
 
@@ -40,7 +40,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "SS Infantry Division" 			# Used to be SS division -> New system for SS. Also messed up the civil war by refusing to move to the fascists, and immersion-breaking to have them around as royalists
+	name = "SS-Grenadier-Division" 			# Used to be SS division -> New system for SS. Also messed up the civil war by refusing to move to the fascists, and immersion-breaking to have them around as royalists
 
 	division_names_group = GER_SS_01
 
@@ -187,7 +187,7 @@ units = {
 	division= {	
 		name = "SS-Verfügungstruppe"
 		location = 11505
-		division_template = "SS Infantry Division"
+		division_template = "SS Grenadier Division"
 		start_experience_factor = 0.3
 	}
 
