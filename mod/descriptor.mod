@@ -1,6 +1,7 @@
-version="0.1"
+version="0.2"
 tags={
 	"Historical"
 }
-name="Historical Namelists"
-supported_version="1.12.1"
+name="Mostly Historical German Namelists"
+supported_version="1.12.*"
+remote_file_id="2870881292"
