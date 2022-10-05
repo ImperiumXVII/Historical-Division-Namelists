@@ -1,8 +1,8 @@
-version="0.2"
+version="0.3"
 tags={
 	"Historical"
 }
-name="Mostly Historical German Namelists"
+name="Mostly Historical Namelists"
 supported_version="1.12.*"
 picture = "thumbnail.png"
 path="C:/Users/michs/Documents/Paradox Interactive/Hearts of Iron IV/mod/historical-namelists"
