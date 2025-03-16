@@ -328,15 +328,15 @@ GER_Inf_01 = {
 		281 = { "%d. Infanterie-Division" }
 		303 = { "Infanterie-Division 'Döberitz'" }
 		309 = { "Infanterie-Division 'Berlin'" }
-		947 = { "1. Marine-Infanterie-Division" }
+		947 = { "1. Marine-Infanterie-Division" "Formed from naval infantry near the end of the war, but wasn't a marine division." }
 		153 = { "%d. Grenadier-Division" }
 		154 = { "%d. Infanterie-Division" }
 		155 = { "%d. Infanterie-Division" }
-		948 = { "2. Marine-Infanterie-Division" }
+		948 = { "2. Marine-Infanterie-Division" "Formed from naval infantry near the end of the war, but wasn't a marine division." }
 		324 = { "Infanterie-Division 'Hamburg'" }
 		160	= { "%d. Infanterie-Division" }
 		166 = { "%d. Infanterie-Division" }
-		949 = { "3. Marine-Infanterie-Division" }
+		949 = { "3. Marine-Infanterie-Division" "Formed from naval infantry near the end of the war, but wasn't a marine division." }
 		156 = { "%d. Infanterie-Division" }
 		903 = { "Infanterie-Division 'Potsdam'" }
 		904 = { "Infanterie-Division 'Scharnhorst'" }
@@ -355,7 +355,7 @@ GER_PEN_01 = {
 	name = "Penal Battalions" 
 	for_countries = { GER } 
 	can_use = { has_completed_focus = GER_strafbataillon }
-	division_types = { "penal_battalion" "infantry" }
+	division_types = { "penal_battalion" }
 	fallback_name = "Strafbataillon %d"
     ordered = {
         500 = { "Strafbataillon 500 'Suicide Battalion'" }
@@ -435,8 +435,7 @@ GER_ALTINF_01 = {
 	}
 }
 
-GER_LTINF_01 = 
-{
+GER_LTINF_01 = {
 	name = "Light Infantry Divisions"
 	for_countries = { GER }
 	can_use = { always = yes }
@@ -460,8 +459,7 @@ GER_LTINF_01 =
 	}
 }
 
-GER_MEC_01 = 
-{
+GER_MEC_01 = {
 	name = "Panzergrenadier Divisions"
 	for_countries = { GER }
 	can_use = { always = yes }
@@ -528,9 +526,6 @@ GER_MEC_01_MONARNCHIST = {
 		936 = { "Kaiser-Begleit-Division" }
 		935 = { "Kaiser-Grenadier-Division" }
 		934 = { "Panzer-Grenadier-Division Kurmark" }
-		
-		# put all divisions titled "Panzergrenadier" in this list to avoid confusion, even though some (GD, Brandenburg, etc) were full Panzer Divisions in organization.
-		
 	}
 }
 
@@ -571,8 +566,7 @@ GER_MEC_01_COMMUNIST = {
 	}
 }
 
-GER_Mnt_01 = 
-{
+GER_Mnt_01 = {
 	name = "Mountain Divisions"
 	for_countries = { GER }
 	can_use = { always = yes }
@@ -594,8 +588,7 @@ GER_Mnt_01 =
 	}
 }
 
-GER_MAR_01 = 
-{
+GER_MAR_01 = {
 	name = "Marine Divisions"
 	for_countries = { GER }
 	can_use = { always = yes }
@@ -611,15 +604,14 @@ GER_MAR_01 =
 	}
 }
 
-GER_PAR_01 = 
-{
-	name = "Paratrooper Divisions"
+GER_PAR_01 = {
+	name = "Fallschirmjäger Divisions"
 	for_countries = { GER }
 	can_use = { always = yes }
 	division_types = { "paratrooper"  }
 	fallback_name = "%d. Fallschirmjäger-Division"
 	ordered = {
-		1 = { "7. Flieger-Division" }
+		1 = { "7. Flieger-Division" "Later became 1. Fallschirmjäger-Division" }
 		2 = { "%d. Fallschirmjäger-Division" }
 		3 = { "%d. Fallschirmjäger-Division" }
 		4 = { "%d. Fallschirmjäger-Division" }
@@ -632,11 +624,12 @@ GER_PAR_01 =
 		11 = { "%d. Fallschirmjäger-Division" }
 		15 = { "Fallschirm-Division Erdmann" }
 		20 = { "%d. Fallschirmjäger-Division" }
+		22 = { "%d. Infanterie-Division (Luftlande)" }
+		23 = { "1. Luftlande-Division" "Planned but never formed" }
 	}
 }
 
-GER_Arm_01 = 
-{
+GER_Arm_01 = {
 	name = "Panzer Divisions"
 	for_countries = { GER }
 	can_use = { always = yes }
@@ -687,8 +680,7 @@ GER_Arm_01 =
 	}
 }
 
-GER_LTARM_01 = 
-{
+GER_LTARM_01 = {
 	name = "Light Panzer Divisions"
 	for_countries = { GER }
 	can_use = { always = yes }
@@ -704,8 +696,7 @@ GER_LTARM_01 =
 	}
 }
 
-GER_MOT_01 = 
-{
+GER_MOT_01 = {
 	name = "Motorized Divisions"
 	for_countries = { GER }
 	can_use = {
@@ -766,8 +757,7 @@ GER_MOT_02 = {
 	}
 }
 
-GER_ART_01 = 
-{
+GER_ART_01 = {
 	name = "Artillery Divisions"
 	for_countries = { GER }
 	can_use = { always = yes }
@@ -783,8 +773,7 @@ GER_ART_01 =
 	}
 }
 
-GER_Cav_01 = 
-{
+GER_Cav_01 = {
 	name = "Cavalry Divisions"
 	for_countries = { GER }
 	can_use = { always = yes }
@@ -799,8 +788,7 @@ GER_Cav_01 =
 	}
 }
 
-GER_GAR_01 = 
-{
+GER_GAR_01 = {
 	name = "Static Infantry/Garrison Divisions"
 	for_countries = { GER }
 	can_use = { always = yes }
@@ -1041,13 +1029,10 @@ GER_MIL_03 = {
 		8 = { "%d. Roter Frontkämpferbund-Division" }
 		9 = { "%d. Roter Frontkämpferbund-Division" }
 		10 = { "%d. Roter Frontkämpferbund-Division" }
-
 	}
-	
 }
 
-GER_SS_01 = 
-{
+GER_SS_01 = {
 	name = "SS Infantry Divisions"
 	for_countries = { GER }
 	can_use = { 
@@ -1087,8 +1072,7 @@ GER_SS_01 =
 	}
 }
 
-GER_SS_02 = 
-{
+GER_SS_02 = {
 	name = "SS Panzer Divisions"
 	for_countries = { GER }
 	can_use = { 
@@ -1110,8 +1094,7 @@ GER_SS_02 =
 	}
 }
 
-GER_SS_03 = 
-{
+GER_SS_03 = {
 	name = "Other SS Divisions"
 	for_countries = { GER }
 	can_use = { 
@@ -1143,10 +1126,7 @@ GER_ARM_02 = {
     name = "Panzerjäger Divisions"
     for_countries = { GER }
 	can_use = { 
-		has_government = fascism
-        has_government = neutrality
-        has_government = democratic
-        has_government = communism
+		always = yes
 	}
     division_types = { "heavy_armor" "medium_armor" "light_armor" }
     fallback_name = "%d. Panzerjäger-Division"
@@ -1159,8 +1139,7 @@ GER_ARM_02 = {
     }
 }
 
-GER_ART_02 = 
-{
+GER_ART_02 = {
 	name = "Sturmgeschütz Divisions"
 	for_countries = { GER }
 	can_use = { always = yes }
@@ -1176,8 +1155,7 @@ GER_ART_02 =
 	}
 }
 
-GER_INF_02 = 
-{
+GER_INF_02 = {
 	name = "Pioniere Divisions"
 	for_countries = { GER }
 	can_use = { always = yes }
